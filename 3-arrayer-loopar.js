@@ -40,4 +40,4 @@ for (let indexOfNumber = 0; indexOfNumber < arrayOfNumbers.length; indexOfNumber
 
 }
 
-console.log("Our totalSum is equal to times 3: ", totalSum)
+console.log("Our totalSum is equal to: ", totalSum)
