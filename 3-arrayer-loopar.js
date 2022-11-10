@@ -12,13 +12,17 @@ const arrayOfNumbers = [10, 12, 14, 15, 18, 20]
 // for (
 //   let index = 0 /* deklarerar index som en variabel*/;
 //   index < arrayOfNumbers.length  /* OM, fortsätt göra loop tills detta vilkor uppnås */;
-//   index = index + 1 /* ++ =  index = index + 1 */) {
+//   index = index + 1 /* ++ =  index = index + 1 */ ÖKAR INDEX Med 1 för varje "omgång") {
 //   const element = arrayOfNumbers[index];
 
-// }
+// 0 + 0 = 0
+// 0 + 1 = 1
+// 1 + 1 = 2
+// 2 + 1 = 3
+// 3 + 1 = 4
+// 4 + 1 = 5
 
 let totalSum = 0;
-// 0
 // 0 + 10 = 10
 // 10 + 12 = 22
 // 22 + 14 = 36
@@ -36,4 +40,4 @@ for (let indexOfNumber = 0; indexOfNumber < arrayOfNumbers.length; indexOfNumber
 
 }
 
-console.log("Our totalSum is equal to times 3: ", totalSum * 3)
+console.log("Our totalSum is equal to times 3: ", totalSum)
